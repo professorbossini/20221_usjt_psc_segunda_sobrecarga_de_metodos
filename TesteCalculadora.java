@@ -15,6 +15,14 @@ public class TesteCalculadora {
                 //aqui estou colocando ele em execução
                 resultado = calc.somar(operando1, operando2);
                 break;
+            case 2:
+                resultado = calc.subtrair(operando1, operando2);
+                break;
+            case 3:
+                resultado = calc.multiplicar(operando1, operando2);
+                break;
+            case 4:
+                resultado = calc.dividir(operando1, operando2);
             
 
         }
